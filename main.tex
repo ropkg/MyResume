@@ -1,0 +1,185 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Class
+% Version 2.0 (12/10/23)
+%
+% This class originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Omar Roldan
+% Based on a template by  Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+\usepackage{multicol}
+\setlength{\columnsep}{0mm}
+%----------------------------------------------------------------------------------------
+\usepackage{lipsum}  
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.5\textwidth} 
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	{ \fontsize{16}{20} \textcolor{black}{\textbf{\MakeUppercase{Rohit Muthukumarasamy}}}} % First name
+	
+	\vspace{6pt}
+	
+	{\Large Software Developer $\sim$ Engineer} % Career or current job title
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.2\textwidth} % 20% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text 
+    \icon{Phone}{11}{+91-8838039162}\\
+    \icon{MapMarker}{11}{Chennai, India}\\
+	
+\end{minipage}
+\begin{minipage}[t]{0.27\textwidth} % 27% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\icon{Envelope}{11}{\href{mailto:rohitmuthukumarasamy@gmail.com}{rohitmuthukumarasamy@gmail.com}}\\	
+    \icon{Github}{11}{\href{https://github.com/ropkg}{Rohit Muthukumarasamy}}\\
+    \icon{LinkedinSquare}{11}{\href{www.linkedin.com/in/rohit-muthukumarasamy-a5b2102aa/}{Rohit Muthukumarasamy}}\\    
+    
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.46\textwidth}
+    \cvsect{Summary}
+	\vspace{-6pt}
+ 
+    %Dummy text
+	A recent graduate skilled in problem-solving, collaboration, and emerging technologies. Proficient in developing robust Python solutions for complex projects, particularly focusing on data analysis and visualization. Successfully achieved a 40\% reduction in runtime through optimized data processing methods, significantly enhancing project efficiency. \\
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.465\textwidth}
+    \cvsect{Skills}
+    \vspace{-6pt}
+    
+    \begin{minipage}[t]{0.2\textwidth}
+        \textbf{Languages:}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.73\textwidth}
+      Python , Java , C++ , C , SQL , HTML , CSS , Javascript.  
+    \end{minipage}
+    \vspace{4mm}
+    
+    \begin{minipage}[t]{0.2\textwidth}
+        \textbf{Technologies:}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.73\textwidth}
+      Tableau, Power-BI, MS-Excel, AWS, Firebase, GCP, Spark, GIT, Tensorflow, PyTorch, NumPy, Atlassian JIRA.
+    \end{minipage}
+    
+    
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\vspace{-10 pt}
+\cvsect{Education}
+\begin{entrylist}
+    \entry
+		{10/2021 - 5/2023}
+		{M.Tech Computer Science and Technology}
+		{Post-Graduate}
+		{SRM Institute of Science and Technology, Chennai}
+	
+\end{entrylist}
+%----------------------------------------------------------------------------------------
+%	Projects
+%----------------------------------------------------------------------------------------
+\cvsect{Projects}
+\begin{entrylist}
+    \entry
+		{Python}
+		{Emotion Recognition using Accoustic Features}
+		{{\href{https://github.com/ropkg/}{\icon{Github}{11}}}}
+		{%Dummy text 
+        Achieved 78\% accuracy in identifying human emotions by utilizing the Librosa library to extract distinctive voice features.}
+	\entry
+		{Python}
+		{Pandemic Outbreak prediction using Time-Series Analysis}
+		{{\href{https://github.com/ropkg/COVID-19-Prediction-using-Time-Series-Analysis/tree/main}{\icon{Github}{11}}}}
+		{%Dummy text 
+        Engineered a sophisticated COVID-19 prediction model with an 80\% accuracy rate, employing advanced Time Series analysis and Machine Learning techniques in Python. Executed precise forecasting of virus spread, furnishing insightful data for strategic decision-making..}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+\vspace{-10 pt}
+\cvsect{Experience}
+\begin{entrylist}
+	\entry
+        {5/2023 -- 12/2023}
+		{Intern - Drone Pilot}
+		{Chandigarh Institute of Drones}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item Developed Unmanned Aerial Vehicles (UAVs) and Quadcopter Drones as part of a comprehensive project. Implemented a machine learning model for human identification, enhancing disaster management capabilities through analysis, design, development, testing, and support.
+            \item Developed and implemented advanced RADAR systems, state-of-the-art autopilot systems, and highly efficient payload delivery mechanisms for deployment across a diverse range of military applications. This multifaceted project involved the integration of cutting-edge technologies to enhance operational capabilities and address various military requirements.
+        \end{itemize} 
+        \texttt{Python} \slashsep \texttt{IoT}}
+	\entry
+		{9/2022 -- 4/2023}
+		{Tech Intern}
+		{Bank of America}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item Worked as a part of Reconciliation and Operational Client (ROCS) team Developed automation program which automated entries during Reconciliation process resulting in reduction of time taken by 25 \%.
+            \item Facilitated and oversaw sprint and scrum meetings, served as a Scrum Master, and contributed to the management of business requirements within an Agile framework.
+            \item Immersed in the intricacies of the banking domain, gaining in-depth understanding of diverse operations, security applications, and widely adopted enterprise solutions. Expanded knowledge base to include mutual funds, stocks, equity, investment banking, and taxation.
+        \end{itemize} 
+        \texttt{Python} \slashsep \texttt{SQL} \slashsep \texttt{MS-Excel}}
+	\entry
+		{5/2019 -- 6/2019 \\\footnotesize}
+		{Intern}
+		{BSNL Telecommunications}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item Employed Packet Tracer software to construct intricate networking protocols, troubleshoot issues, and simulate their functionality within a controlled environment.
+            \item Implemented encryption protocols and load-balancing algorithms for testing supercomputers in telecommunications, enhancing security and optimizing resource allocation.
+        \end{itemize} 
+        \texttt{Cisco Packet tracer} \slashsep \texttt{LINUX}}
+\end{entrylist}
+\vspace{-10 pt}
+\cvsect{Certifications}
+\begin{entrylist}
+    \entry
+		{2022}
+		{Google Technical Support Fundamentals}
+		{Coursera}
+        {Google}
+    \entry
+		{2022}
+		{Foundations of Business Intelligence}
+		{Coursera}
+        {Google}
+\end{entrylist}
+\end{document}
